@@ -1,0 +1,95 @@
+/* *, *::before, *::after {
+    box-sizing: border-box;
+  }
+   */
+  html {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    background-color: #fff;
+  }
+  
+  .question {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+
+  }
+  .answers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding-left: 25%;
+    margin-left:5%;
+    display: inline-block;
+  }
+
+  .result {
+    padding-left: 25%;
+    margin-left:5%;
+  }
+  .answerButton {
+    border-radius: 15%;
+    display: flex;
+    margin-bottom: 10%;
+    justify-content: center;
+    color: #fff;
+    background-color: purple;
+    text-align: left;
+    cursor: pointer;
+    font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
+    font-size: 1.3em;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
+    font-size: 1.3em;
+    padding: 20px;
+    margin-bottom: 60px;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .hsButton {
+    color: purple;
+    cursor: pointer;
+  }
+
+.displayB {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .userName {
+    padding-left: 25%;
+    margin-left:5%;
+  }
+
+  .sb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: purple;
+    /* width: fit-content; */ 
+    /* how to make sb width fit content */
+  }
+
+  .reset{
+    margin-left: 28%;
+  }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class = "navbar">
+        <p class = "hsButton" onclick="checkHighScore()"> View Highscore</p>
+        <p class= "time"> </p>
+        
+    </div>
+    <h1 class= "question">Coding Quiz Challenge</h1>
+    
+    <ul class = "answers">
+    </ul>
+    <div class = "result"></div>
+    <div class = "buttons">
+        <button id = "button" class="answerButton">Start Quiz</button>
+    </div>
+    
+    <div class = "userName">
+        <input type="text" id="initials"/>
+        <button type="button" onclick="getInputValue();">Submit</button>
+
+    </div>
+    <div class = "scoreBoard">
+        <h1 class = "displayB">Leader Board</h1>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="./questionSet.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
